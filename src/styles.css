@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: rgba(9, 214, 187, 0.993);
+}
+button {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  margin-left: 1.5rem;
+  background-color: aquamarine;
+  margin-bottom: 1.4rem;
+}
+button:hover {
+  box-shadow: 2px 2px 5px black;
+}
+li {
+  width: 22rem;
+  background-color: aquamarine;
+  margin-left: 0.1rem;
+  padding-top: 2px;
+  padding-block-end: 0.3rem;
+  margin-bottom: 10px;
+  list-style: none;
+  border-radius: 0.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: 2px 2px 4px black;
+  list-style-position: outside;
+  margin: auto auto 7px auto;
+}
+li:hover {
+  box-shadow: 3px 3px 5px black;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
